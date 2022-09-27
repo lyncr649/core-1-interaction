@@ -1,0 +1,14 @@
+body{
+	background-color: seashell;
+}
+
+h1{
+	text-align: center;
+	color: darkred;
+	font-size: 45px;
+}
+
+pre{
+	font-family: 'Crimson Text', serif;
+	color: darkslateblue;
+}

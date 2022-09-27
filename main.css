@@ -1,0 +1,47 @@
+
+body {
+  background-color: seashell;
+  font-family: kaeru kaeru;
+}
+
+h1{
+  font-size: 100px;
+  color: blue;
+  text-align: center;
+}
+h2{
+  text-align: center;
+  color: seagreen;
+}
+
+.special{
+  color: blue;
+}
+
+.selected{
+  color: darkred;
+}
+
+h3{
+  font-size: 15px;
+  color: sienna;
+  text-align: center;
+}
+a{
+  font-size: 30px;
+  font-family: mrs eaves;
+  text-decoration: none;
+  border-bottom: 2px dotted;
+  border-top: 2px dotted;
+  border-right: 2px dotted;
+  border-left: 2px dotted;
+}
+h2{
+font-family: bluu next;
+
+}
+
+section{
+  text-align: center;
+
+}

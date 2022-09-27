@@ -1,0 +1,51 @@
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+body{
+	background-color: midnightblue;
+	background-clip: rain.mp4;
+}
+
+h1{
+	font-family: Futura;
+	text-align: center;
+	font-size: 75px;
+	color: #edeb70;
+	border-bottom: 2px dotted;
+	border-top: 2px dotted;
+}
+
+h2{
+	font-family:   'Libre Franklin', sans-serif;
+	color: ghostwhite;
+	background-color: #5b7b91;
+	text-align: justify;
+	padding: 20px;
+	padding-left: 86px;
+	padding-right: 86px;
+	border-radius: 30px;
+
+}
+
+pre{
+	font-family: futura;
+	font-size: 25px;
+	background-color: #5b7b91;
+	color: ghostwhite;
+	text-align: center;
+	border-radius: 30px;
+}
+
+
+

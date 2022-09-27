@@ -1,0 +1,47 @@
+body{
+	background-color: slategrey;
+}
+
+h1{
+	font-family: didot;
+	font-style: italic;
+	font-size: 60px;
+	text-align: center;
+	color: cornsilk;
+	border-bottom: 2px dotted;
+	border-top: 2px dotted;
+}
+pre{
+	font-family: futura;
+	font-size: 25px;
+	background-color: darkolivegreen;
+	color: ghostwhite;
+	text-align: center;
+}
+
+section{
+	font-family: didot;
+	color: ghostwhite;
+	font-size: 19px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 25px;
+	text-align: center;
+
+}
+
+
+h2{
+	font-family: didot;
+	color: floralwhite;
+	text-align: right;
+	font-style: italic;
+	font-size: 30px;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+
+
+
+}
