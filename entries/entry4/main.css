@@ -1,3 +1,79 @@
+h3{
+	font-size: 15px;
+
+}
+h1{
+	font-family: futura;
+	text-align: center;
+	font-size: 75px;
+	color: red;
+	
+}
+h1 span{
+	background-color: lightpink;
+	border-radius: 50%;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+h3{
+
+}
+
+h2{
+	font-family: Futura;
+	font-size: 25px;
+	color: rosybrown;
+	padding-right: 60px;
+	padding-left: 60px;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
 body{
 	background-color: pink;
 }
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+  padding-left: 30px;
+}
+
+pre{
+	font-family: futura;
+	font-size: 25px;
+	background-color: #a47440;
+	color: ghostwhite;
+	text-align: center;
+	border-radius: 30px;
+
+}
+a{ 
+	font-size: 25px;
+	color: lightgray;
+	text-decoration: none;
+ }
+
+ 
+a:hover{
+ 	color: ghostwhite;
+ }
+
+ a:active {
+ 	color: ghostwhite;
+ }
+
+ .photos{
+ 	background-color: bisque;
+ 	border-radius: 50px;
+ 	align-content: center;
+ }
+
+
