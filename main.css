@@ -35,7 +35,14 @@ a{
   border-top: 2px dotted;
   border-right: 2px dotted;
   border-left: 2px dotted;
+  color: darkolivegreen;
 }
+
+ 
+a:hover{
+  color: darkred;
+ }
+
 h2{
 font-family: bluu next;
 

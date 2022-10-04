@@ -1,0 +1,45 @@
+body{
+	margin: 50px;
+}
+
+.wrapper{
+	display: flex;
+}
+h1{
+	text-decoration: underline 2px;
+	font-size: 40px;
+	background-color: lightgrey;
+}
+
+h2{
+	text-decoration: underline 2px;
+	font-size: 20px;
+}
+
+h3{
+	font-size: 20px;
+	text-decoration: underline 2px;
+}
+
+h4{
+	font-size: 18px;
+	text-decoration: bold;
+}
+
+.bold{
+	text-decoration: bold;
+}
+
+
+figcaption{
+	background-color: gray;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline 1px;
+}
+
