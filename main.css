@@ -1,13 +1,40 @@
+@font-face {
+  font-family: Kaeru Kaeru;
+  src: url(http://velvetyne.fr/fonts/kaeru-kaeru/);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 50vh;
+  justify-content: center;
+  padding:10px;
+  background-color: #042135;
+  min-height: 300px;
+  text-align:  center;
+  column-gap: 10px;
+}
+
+
+.item {
+  margin: 10px 10px;
+  width: 300px;
+}
+
+
 
 body {
-  background-color: seashell;
+  background-color: 202A44;
   font-family: helvetica;
 }
 
 h1{
   font-size: 100px;
-  color: blue;
+  color: #042135;
   text-align: center;
+  font-family: kaeru kaeru;
 }
 h2{
   text-align: center;
@@ -22,10 +49,15 @@ h2{
   color: darkred;
 }
 
+
 h3{
   font-size: 15px;
   color: sienna;
   text-align: center;
+  background-color: thistle;
+  border-radius: 75px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 a{
   font-size: 30px;
