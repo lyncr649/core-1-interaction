@@ -1,3 +1,89 @@
 body{
+	background-color: cornsilk;
+}
+
+h1{
+	color: darkolivegreen;
+	text-align: center;
+	font-size: 75px;
+	font-family: didot;
+}
+
+h2{
+	color: midnightblue;
+	text-align: right;
+	font-family: didot;
+	font-style: italic;
+}
+
+.imgs{
+	justify-content: center;
+}
+
+p{
+	font-size: 30px;
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: midnightblue;
+}
+a:hover{
+ 	color: ghostwhite;
+ }
+
+ a:active {
+ 	color: ghostwhite;
+ }
+
+pre{
+	font-family: futura;
+	font-size: 25px;
 	background-color: darkolivegreen;
+	color: ghostwhite;
+	text-align: center;
+	border-radius: 10px;
+
+}
+a{ 
+	font-size: 25px;
+	color: lightgray;
+	text-decoration: none;
+ }
+
+.container {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 5px;
+     justify-content: space-between;
+     justify-content: lecacy center;
+}
+.item {
+     margin: 5px;
+}
+
+
+ @media (min-width: 768px) {
+  body {
+    font-size: 40px;
+    background-color: ghostwhite;
+  }
+
+}
+
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+  body {
+    font-size: 50px;
+  }
+   h1,h2{
+    font-size: 80px;
+  }
+}
+
+/* Wide screen breakpoint */
+@media (min-width: 1200px) {
+  body {
+    font-size: 60px;
+  }
 }
