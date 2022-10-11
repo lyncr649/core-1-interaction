@@ -43,7 +43,7 @@ a:hover{
  	color: ghostwhite;
  }
 
-pre{
+.lyrics{
 	font-family: futura;
 	font-size: 25px;
 	background-color: darkolivegreen;
@@ -52,6 +52,14 @@ pre{
 	border-radius: 10px;
 
 }
+
+h3{
+	font-family: futura;
+	font-size: 25px;
+	color: ghostwhite;
+	text-align: center;
+}
+
 a{ 
 	font-size: 25px;
 	color: lightgray;
@@ -76,6 +84,18 @@ a{
     background-color: ghostwhite;
   }
 
+}
+
+@media only screen and (max-width: 600px) {
+	h1{
+		font-size: 25px;
+	}
+	h2, p{
+		font-size: 15px;
+	}
+	pre{
+		font-size: 10px;
+	}
 }
 
 
