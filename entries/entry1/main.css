@@ -8,7 +8,103 @@ h1{
 	font-size: 45px;
 }
 
+h2{
+	font-size: 25px;
+	color: black;
+	text-align: right;
+	padding: 50px;
+}
+
+h3{
+
+}
 pre{
 	font-family: 'Crimson Text', serif;
 	color: darkslateblue;
 }
+
+p{
+	font-size: 30px;
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: midnightblue;
+	font-family: didot;
+}
+a:hover{
+ 	color: ghostwhite;
+ }
+
+ a:active {
+ 	color: ghostwhite;
+ }
+
+.lyrics{
+	font-family: futura;
+	font-size: 25px;
+	background-color: darkred;
+	color: ghostwhite;
+	text-align: center;
+	border-radius: 10px;
+
+}
+
+a{ 
+	font-size: 25px;
+	color: lightgray;
+	text-decoration: none;
+ }
+
+
+  @media (min-width: 768px) {
+  body {
+    font-size: 40px;
+    background-color: ghostwhite;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+	h1{
+		font-size: 35px;
+	}
+	h2, p{
+		font-size: 20px;
+	}
+	pre{
+		font-size: 10px;
+	}
+}
+
+.column {
+  float: left;
+  width: 40%;
+  padding: 5px;
+  padding-left: 30px;
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+  body {
+    font-size: 30px;
+  }
+   h1{
+    font-size: 50px;
+  }
+  	h2{
+  		font-size: 35px;
+  	}
+  pre{
+  	font-size: 20px;
+  }
+}
+
+/* Wide screen breakpoint */
+@media (min-width: 1200px) {
+  body {
+    font-size: 60px;
+  }
+}
+
+
+
