@@ -47,5 +47,30 @@ pre{
 	border-radius: 30px;
 }
 
+a:hover{
+ 	color: ghostwhite;
+ }
+
+ a:active {
+ 	color: ghostwhite;
+ }
+
+ .lyrics{
+	font-family: futura;
+	font-size: 25px;
+	background-color: #5b7b91;
+	color: ghostwhite;
+	text-align: center;
+	border-radius: 10px;
+
+}
+
+a{ 
+	font-size: 25px;
+	color: lightgray;
+	text-decoration: none;
+ }
+
+
 
 

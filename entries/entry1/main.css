@@ -6,11 +6,13 @@ h1{
 	text-align: center;
 	color: darkred;
 	font-size: 45px;
+	background-color: navy;
+	border-radius: 20px;
 }
 
 h2{
 	font-size: 25px;
-	color: black;
+	color: navy;
 	text-align: right;
 	padding: 50px;
 }
