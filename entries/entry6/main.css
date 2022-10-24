@@ -1,0 +1,101 @@
+body{
+	background-color: ghostwhite;
+}
+
+h1{
+	color: #3D5041;
+	font-size: 60px;
+	font-family: helvetica;
+	text-align: center;
+}
+
+p{
+	font-size: 30px;
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: black;
+	font-family: helvetica;
+}
+
+
+a:hover{
+ 	color: ghostwhite;
+ }
+
+ a:active {
+ 	color: ghostwhite;
+ }
+
+.lyrics{
+	font-family: futura;
+	font-size: 25px;
+	background-color: #3D5041;
+	color: ghostwhite;
+	text-align: center;
+	border-radius: 10px;
+
+}
+
+h3{
+	font-family: futura;
+	font-size: 25px;
+	color: ghostwhite;
+	text-align: center;
+}
+
+a{ 
+	font-size: 25px;
+	color: lightgray;
+	text-decoration: none;
+ }
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+  padding-left: 30px;
+}
+
+ @media (min-width: 768px) {
+  body {
+    font-size: 40px;
+    background-color: ghostwhite;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+	h1{
+		font-size: 25px;
+	}
+	h2, p{
+		font-size: 15px;
+	}
+	pre{
+		font-size: 10px;
+	}
+}
+
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+  body {
+    font-size: 50px;
+  }
+   h1,h2{
+    font-size: 60px;
+  }
+  pre{
+  	font-size: 20px;
+  }
+}
+
+/* Wide screen breakpoint */
+@media (min-width: 1200px) {
+  body {
+    font-size: 60px;
+  }
+}
+
+
