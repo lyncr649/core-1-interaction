@@ -14,33 +14,32 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 100px;
-  font-family: mrs eaves;
-  color: darkblue;
+  font-family: didot;
+  color: navy;
 }
 h1{
-	color: darkblue;
+	color: navy;
 	font-size: 100px;
-	font-family: Mrs eaves;
+	font-family: didot;
 	text-align: center;
 	background-color: goldenrod;
 }
 
 h2{
-	font-family: futura;
-	font-size: 20px;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-bottom: 30px;
+	font-family: didot;
+	font-size: 30px;
+	padding: 40px;
+	color: navy;
 
 
 }
 
 p{
-	font-size: 25px;
+	font-size: 30px;
 	text-align: left;
 	padding: 55px;
-	color: black;
-	font-family: futura;
+	color: darkblue;
+	font-family: didot;
 }
 
 
