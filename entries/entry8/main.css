@@ -1,0 +1,89 @@
+body{
+	background-color: #84A6C9;
+}
+
+h1{
+	color: seashell;
+	font-size: 80px;
+	font-family: futura;
+	text-align: center;
+	padding: 30px;
+}
+
+.sticky {
+  background-color: #8A7451;
+  border-radius: 60px;
+  position: sticky;
+  top: 0;
+
+}
+
+h2{
+	font-family: futura;
+	font-size: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+
+
+}
+
+p{
+	font-size: 25px;
+	text-align: left;
+	padding: 55px;
+	color: black;
+	font-family: futura;
+}
+
+
+a:hover{
+ 	color: ghostwhite;
+ }
+
+ a:active {
+ 	color: ghostwhite;
+ }
+
+.lyrics{
+	font-family: futura;
+	font-size: 25px;
+	background-color: #3D5041;
+	color: ghostwhite;
+	text-align: center;
+	border-radius: 10px;
+
+}
+
+h3{
+	font-family: futura;
+	font-size: 25px;
+	color: ghostwhite;
+	text-align: center;
+}
+
+a{ 
+	font-size: 25px;
+	color: lightgray;
+	text-decoration: none;
+ }
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+  padding-left: 30px;
+}
+
+ @media (min-width: 768px) {
+  body {
+    font-size: 40px;
+    background-color: ghostwhite;
+  }
+
+}
+
+.item:hover {
+  text-align: center;
+  animation: spintype 2s;
+}

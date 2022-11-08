@@ -107,9 +107,9 @@ a{
   height: 100vh;
 }
 
-.item {
+.item:hover {
   text-align: center;
-  animation: spintype 2s ease-in-out 2s;
+  animation: spintype 2s;
 }
 
 
