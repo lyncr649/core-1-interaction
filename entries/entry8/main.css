@@ -5,22 +5,24 @@ body{
 h1{
 	color: seashell;
 	font-size: 80px;
-	font-family: futura;
+	font-family: didot;
 	text-align: center;
 	padding: 30px;
 }
 
+
 .sticky {
   background-color: goldenrod;
   border-radius: 60px;
-  position: sticky;
-  top: 0;
-
+ 	position: sticky;
+ 	top: 0;
+ 	border: 3px red;
 }
 
+
 h2{
-	font-family: futura;
-	font-size: 20px;
+	font-family: didot;
+	font-size: 30px;
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-bottom: 30px;
@@ -33,7 +35,7 @@ p{
 	text-align: left;
 	padding: 55px;
 	color: black;
-	font-family: futura;
+	font-family: didot;
 }
 
 
@@ -68,6 +70,7 @@ a{
 	text-decoration: none;
  }
 
+
 .column {
   float: left;
   width: 30%;
@@ -75,10 +78,11 @@ a{
   padding-left: 30px;
 }
 
+
+
  @media (min-width: 768px) {
   body {
     font-size: 40px;
-    background-color: ghostwhite;
   }
 
 }
