@@ -1,5 +1,5 @@
 body{
-	background-color: #84A6C9;
+	background-color: lightblue;
 }
 
 h1{
@@ -11,7 +11,7 @@ h1{
 }
 
 .sticky {
-  background-color: #8A7451;
+  background-color: goldenrod;
   border-radius: 60px;
   position: sticky;
   top: 0;
