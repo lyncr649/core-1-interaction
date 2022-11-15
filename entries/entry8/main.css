@@ -1,5 +1,5 @@
 body{
-	background-color: lightblue;
+	background-color: #D2A473;
 }
 
 h1{
@@ -31,7 +31,7 @@ h2{
 }
 
 p{
-	font-size: 25px;
+	font-size: 30px;
 	text-align: left;
 	padding: 55px;
 	color: black;
