@@ -1,5 +1,5 @@
 body{
-	background-color: ghostwhite;
+	background-color: #C0BCA3;
 }
 
 h1{
@@ -71,7 +71,6 @@ a{
  @media (min-width: 768px) {
   body {
     font-size: 40px;
-    background-color: ghostwhite;
   }
 
 }

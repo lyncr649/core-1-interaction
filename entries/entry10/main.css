@@ -1,0 +1,96 @@
+body{
+	background-color: #4B636F;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 90px;
+  font-family: didot;
+  color: #7C2C0B;
+}
+
+
+section{
+	font-family: didot;
+	color: ghostwhite;
+	font-size: 25px;
+	padding-bottom: 10px;
+	padding-top: 45px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 25px;
+	text-align: center;
+
+}
+
+a:hover{
+ 	color: ghostwhite;
+ }
+
+ a:active {
+ 	color: ghostwhite;
+ }
+
+ .lyrics{
+	font-family: futura;
+	font-size: 25px;
+	background-color: #7C2C0B;
+	color: ghostwhite;
+	text-align: center;
+	border-radius: 10px;
+
+}
+
+
+a{ 
+	font-size: 25px;
+	color: lightgray;
+	text-decoration: none;
+ }
+
+ h2{
+	font-family: didot;
+	color: floralwhite;
+	text-align: right;
+	font-style: italic;
+	font-size: 30px;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+
+}
+
+pre{
+	background-color: #7C2C0B;
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.button {
+  background-color: #250D06;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 100px;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: .8;
+  transition: 8ms ease-out;
+}
