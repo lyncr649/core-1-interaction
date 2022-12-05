@@ -24,6 +24,10 @@ section{
 
 }
 
+h3{
+	text-align: center;
+}
+
 a:hover{
  	color: ghostwhite;
  }

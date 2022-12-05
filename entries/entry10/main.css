@@ -73,6 +73,9 @@ pre{
 	background-color: #7C2C0B;
 }
 
+h3{
+	text-align: center;
+}
 
 .wrapper {
   display: flex;
