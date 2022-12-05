@@ -80,6 +80,10 @@ a{
      margin: 5px;
 }
 
+h3{
+	text-align: center;
+}
+
 
  @media (min-width: 768px) {
   body {
